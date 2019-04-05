@@ -1,0 +1,59 @@
+body{
+    /* display: flex */
+    
+}
+header {
+    background-color: blue;
+}
+aside {
+    background-color: purple;
+    flex-basis: 5%;
+}
+.main {
+    width: 90%;
+    background-color: red;
+    flex-basis: 95%;
+}
+footer {
+    background-color: darkred;
+    height:100px;
+    line-height:100px;
+    color: white;
+    text-align:center;
+    font-size:15px;
+    text-transform:uppercase;
+}
+
+.menu {
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    width: calc(100% / 3);
+    float: left;
+    height: 50px;
+}
+
+.backgroundBlue {
+    background-color: blue
+}
+
+.backgroundLightSkyBlue {
+    background-color: lightskyblue;
+}
+
+.backgroundYellow {
+    background-color: yellow;
+}
+
+.backgroundGreen {
+    background-color: green;
+}
+
+.columnWrap {
+    display: flex;
+    flex-flow: column wrap;
+    clear: both;
+    /* float: left; */
+}
